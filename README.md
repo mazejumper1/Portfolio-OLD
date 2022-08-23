@@ -1,2 +1,2 @@
-# visitkort
-et visitkort i HTML og CSS
+# Visitkort
+Et visitkort i HTML og CSS
