@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+:root{
+    --base-color: #858585;
+    --accent-color: #b949a9;
+
+    --base-font: Verdana, Geneva, Tahoma, sans-serif;
+    --accent-font: font-family: 'Black Ops One', cursive;
+
+
+}
+*{
+    margin: 0;   padding: 0;
+
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--base-font);
+    color: var(--base-color);
+}
+
+h1,h2, h3{
+    font-family: var(--accent-font);
+    color: var(--accent-color);
+
+    width: 100%;
+    text-align: center;
+    padding-top: 0.5em;
+}
+
+
+.img-round{
+    max-width: 400px; 
+    height: 200px;
+
+    border-radius: 100% ; 
+}
+header, main, footer{
+    display: flex;
+
+    padding: 2em;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+
+ul{
+    list-style: none;
+}
+li{
+    padding: 0.5em;
+}
+
+a{
+color: var(--base-color);
+
+text-decoration: none;
+
+}
+
+a:hover{
+    color:  var(--accent-color);
+}
+
+.some-icons{
+    display: flex;
+
+font-size: 2em;
+
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.gallery{
+    display: flex;
+
+    width: 70%;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: baseline;
+}
+
+.gallery  article{
+width: 30vh;
+padding:0.5em;
+
+
+
+}
+
+.gallery article:hover{
+    opacity: 0.5;
+}
+
+.gallery article img{
+    width: 100%;
+}
+
+.banner{
+    width: 100%;
+    height: 40vh;
+
+    padding: 0;
+
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.banner img{
+    width: 100%;
+    margin: -30%;
+
+}
+
+nav{
+    width: 100%;
+    
+    border-bottom: 0.15em solid var(--accent-color);
+
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+nav a{
+    padding:0.5em;
+}
+
+.center-text{
+    text-align: center;
+}
