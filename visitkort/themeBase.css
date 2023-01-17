@@ -78,10 +78,7 @@ font-size: 2em;
 
     width: 70%;
 
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: baseline;
-    justify-content: baseline;
+    
 }
 
 .gallery  article{
